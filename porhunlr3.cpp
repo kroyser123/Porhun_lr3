@@ -3,7 +3,10 @@ using namespace std;
 
 // Функция для ввода символа
 char inputChar() {
-    
+    char ch;
+    cout << "Введите символ: ";
+    cin >> ch;
+    return ch;
 }
 
 // Функция для вывода символа
